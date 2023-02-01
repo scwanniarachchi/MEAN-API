@@ -6,6 +6,7 @@ var Order = mongoose.model('Order',{
     address: {type:String,required:true},
     email: {type:String,required:true},
     total: {type:Number,required:true},
+    // kjghks
     date_completed: {
         type: Date,
         default: Date.now,
