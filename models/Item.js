@@ -11,5 +11,5 @@ var Item = mongoose.model('Item',{
         default: Date.now,
     },
 })
-//user type
+
 module.exports = { Item }
