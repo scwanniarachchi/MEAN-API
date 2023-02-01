@@ -5,5 +5,5 @@ var Cart = mongoose.model('Cart',{
     itemid: {type:String,required:true},
     quantity: {type:Number,required:true},
 })
-
+// khdjs
 module.exports = { Cart }
